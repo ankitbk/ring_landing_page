@@ -1,0 +1,309 @@
+/*
+colour palette:
+
+primary color : #30475e;
+secondary color: #222831;
+neutral colors: #c1a57b;
+background colors: #ececec;
+
+        font-family: 'EB Garamond', serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Poppins";
+}
+
+/* Header */
+.head {
+  position: relative;
+  min-height: 10vh;
+}
+
+.head .logo {
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  cursor: pointer;
+}
+
+.head .logo ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.head .logo ul li {
+  font-size: 25px;
+  list-style: none;
+  margin: 0 2px;
+  text-transform: uppercase;
+  color: #30475e;
+}
+
+.head .logo ul li:nth-child(2) {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  font-weight: bold;
+}
+
+.head .menu-bar {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  cursor: pointer;
+}
+
+.head .menu-bar .bar {
+  background-color: #30475e;
+  margin-top: 10px;
+  height: 2px;
+}
+
+.head .menu-bar .menu-bar1 {
+  width: 50px;
+}
+
+.head .menu-bar .menu-bar2 {
+  width: 40px;
+}
+
+.head .menu-links {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  margin-top: 10px;
+}
+
+.head .menu-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.head .menu-links ul li {
+  list-style: none;
+  margin-right: 15px;
+}
+
+.head .menu-links ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #30475e;
+}
+
+.head .shop-icons {
+  position: absolute;
+  top: 15%;
+  left: 85%;
+  margin-top: 10px;
+  min-width: 15%;
+}
+
+.head .shop-icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.head .shop-icons ul li {
+  list-style: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.head .shop-icons .like-ico {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(./Ring_landing_page/6852397701535801673.svg);
+}
+
+.head .shop-icons .cart-ico {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url(./Ring_landing_page/9487714821535029667.svg);
+}
+
+.main {
+  max-width: 800px;
+  padding-top: 100px;
+  margin-left: 15%;
+  min-height: 60vh;
+}
+
+.main h5 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #30475e;
+}
+
+.main .main-head {
+  font-size: 200px;
+  color: #30475e;
+  font-family: 'EB Garamond', serif;
+}
+
+.main .main-img {
+  position: absolute;
+  right: 7%;
+  top: 0%;
+  max-width: 550px;
+}
+
+.main .main-img img {
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+  width: 100%;
+  height: auto;
+}
+
+.second-layer .layer {
+  position: absolute;
+  height: 100vh;
+  background-color: #30475e;
+  z-index: 1;
+}
+
+.second-layer-1 {
+  left: 0%;
+  width: 1px;
+}
+
+.second-layer-2 {
+  left: 15%;
+  width: 1px;
+}
+
+.second-layer-3 {
+  left: 45%;
+  width: 1px;
+}
+
+.second-layer-4 {
+  left: 85%;
+  width: 1px;
+}
+
+.foot {
+  height: 30vh;
+}
+
+.foot .foot-container {
+  position: relative;
+  height: inherit;
+}
+
+.foot .foot-container::before {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #30475e;
+}
+
+.foot .foot-layer {
+  position: absolute;
+}
+
+.foot .foot-section1 {
+  left: 0;
+  width: 15%;
+  height: inherit;
+  background-image: url(./Ring_landing_page/c008161_1_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.foot .foot-section1::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: inherit;
+  background-color: #ececec;
+  opacity: 0.7;
+}
+
+.foot .foot-section1 .next-coll-container {
+  position: absolute;
+  right: -140px;
+  top: 20px;
+  z-index: 1;
+}
+
+.foot .foot-section1 .next-coll-container h3 {
+  font-size: 30px;
+  font-family: 'EB Garamond', serif;
+  max-width: 100px;
+  color: #30475e;
+  font-weight: 700;
+}
+
+.foot .foot-section1 .next-coll-container a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  display: block;
+  color: #30475e;
+}
+
+.foot .foot-section2 {
+  left: 45%;
+  width: 30%;
+  padding-top: 30px;
+}
+
+.foot .foot-section2 p {
+  color: #30475e;
+  max-width: 300px;
+}
+
+.foot .foot-section2 ul {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.foot .foot-section2 ul li {
+  list-style: none;
+  color: #30475e;
+  margin-right: 15px;
+}
+
+.foot .foot-section3 {
+  left: 85%;
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.foot .foot-section3 a {
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: #30475e;
+  color: white;
+  left: -20%;
+}
+/*# sourceMappingURL=main.css.map */

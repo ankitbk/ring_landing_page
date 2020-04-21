@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fourone-rings</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600;700&display=swap"
+        rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://kit.fontawesome.com/029c86571d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- <div class="bg-panel">
+        <div class="bg-panel_lines"></div>
+        <div class="bg-panel_lines"></div>
+        <div class="bg-panel_lines bg-panel_lineswithimage"></div>
+    </div> -->
+    <div class="panel-content">
+        <div class="second-layer">
+            <div class="layer second-layer-1"></div>
+            <div class="layer second-layer-2"></div>
+            <div class="layer second-layer-3"></div>
+            <div class="layer second-layer-4"></div>
+        </div>
+        <div class="head">
+            <div class="logo">
+                <ul>
+                    <li>z</li>
+                    <li>a</li>
+                    <li>l</li>
+                    <li>e</li>
+                    <!-- <i class="fas fa-bars"></i> -->
+                    <li>s</li>
+                </ul>
+            </div>
+            <a class="menu-bar">
+                <div class="bar menu-bar1"></div>
+                <div class="bar menu-bar2"></div>
+            </a>
+            <div class="menu-links">
+                <ul>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Collection</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </div>
+            <div class="shop-icons">
+                <ul>
+                    <li><a href="#">
+                            <span class="like-ico"></span>
+                        </a></li>
+                    <li><a href="#">
+                            <span class="cart-ico"></span>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <h5>new collection</h5>
+            <div class="main-head">
+                Four One
+            </div>
+            <div class="main-img">
+                <img src="./Ring_landing_page/output-onlinepngtools.png" alt="four-diamond-image">
+            </div>
+        </div>
+        <div class="foot">
+            <div class="foot-container">
+                <div class="foot-layer foot-section1">
+                    <div class="next-coll-container">
+                        <h3>Promise ring</h3>
+                        <a href="">next collection</a>
+                    </div>
+                </div>
+
+                <div class="foot-layer  foot-section2">
+                    <p>
+                        four fined pireced daimonds are swrilled in the white gold to form this exciting ring for her.
+                    </p>
+                    <ul>
+                        <li><a href="#"></a>FS</a></li>
+                        <li><a href="#"></a>TW</li>
+                        <li><a href="#"></a>IN</li>
+                    </ul>
+                </div>
+                <div class="foot-layer foot-section3">
+                    <a href="#">
+                        go to shop
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+        // TweenMax.from(".left", 1.6, {
+        //     delay: 0.6,
+        //     width: 0,
+        //     ease: Expo.easeInOut
+        // })
+
+        TweenMax.from(".second-layer-1", 1.6, {
+            delay: 0.6,
+            width: 228,
+            ease: Expo.easeInOut
+        })
+        TweenMax.from(".second-layer-2", 1.6, {
+            delay: 0.6,
+            width: 456,
+            ease: Expo.easeInOut
+        })
+
+
+        TweenMax.from(".second-layer-3", 1.6, {
+            delay: 0.6,
+            width: 608,
+            ease: Expo.easeInOut
+        })
+
+        TweenMax.from(".second-layer-4", 1.6, {
+            delay: 0.6,
+            width: 228,
+            ease: Expo.easeInOut
+        })
+
+
+        TweenMax.staggerFrom(".menu-links ul li", 1, {
+            delay: 2,
+            opacity: 0,
+            y: -20,
+            ease: Power3.easeInOut
+        }, 0.08)
+
+
+        TweenMax.staggerFrom(".shop-icons ul li", 1, {
+            delay: 2.2,
+            opacity: 0,
+            y: -20,
+            ease: Power3.easeInOut
+        }, 0.08)
+
+
+    </script>
+</body>
+
+</html>
